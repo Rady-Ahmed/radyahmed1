@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="./style.css">
   <!-- Favicon -->
   <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+      <link  rel="icon" href="icons/rady.ico">
+
   <!-- fontawesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
@@ -38,7 +40,7 @@
       <nav class="container">
         <!-- nav-data -->
         <div class="nav-data">
-          <a href="" id="name">Rady Ahmed</a>
+          <a href="" id="name">Rady <span class="text-primary">Portfolio</span></a>
           <!-- nav toggle -->
           <div class="nav-toggle">
             <i class="fa-solid fa-bars active"></i>
@@ -50,6 +52,10 @@
           <li><a href="#home" class="nav-list">Home</a></li>
           <li><a href="#about" class="nav-list">About</a></li>
           <li><a href="#contact" class="nav-list">Contact</a></li>
+          <li><a href="#skills" class="nav-list">Skills</a></li>
+          <li><a href="#projects" class="nav-list">Projects</a></li>
+          <li><a href="#education" class="nav-list">Education</a></li>
+         
         </ul>
       </nav>
     </div>
@@ -75,6 +81,8 @@
             aria-label="Rady Ahmed Instagram">
             <i class="fa-brands fa-instagram"></i>
           </a>
+          <a href="https://t.me/Rady_ahmed" target="_blank" ><i class="fab fa-telegram"></i></a>   
+
         </div>
         <a href="#about" class="btn-primary">About Me <i class="fa-solid fa-circle-arrow-down"></i></a>
       </div>
@@ -97,7 +105,7 @@
             <h3>I'm <strong> <span class="text-primary">Rady Ahmed</span>, </strong> Developer</h3>
             <p><strong>Rady Ahmed</strong> is Developer full stack development
               . With a commitment to creating visually appealing and
-              user-friendly web applications.</p>
+              user-friendly web applications </p>
             <p>My goal is simple – to demystify the complexities of web development for beginners, making it an
               accessible and enjoyable journey for all</p>
           </div>
@@ -186,26 +194,60 @@
       </div>
     </section>
     <!-- Skills End -->
-    <!-- Experience Start -->
-    <section id="experience">
-      <div class="container">
-        <div class="title">
-          <h2>
-            <i class="fa-solid fa-medal"></i> My <span class="text-primary">Experience</span>
-          </h2>
-          <p>Work is not just about completing tasks, but about honing skills and fostering growth.</p>
-        </div>
-        <div class="card">
-          <img src="./img/tek.jpg" alt="Misr University">
-          <div class="card-content">
-            <h3> training</h3>
-            <p> Under training &amp;in Technology</p>
-            <p class="status"><i>2023 - present</i></p>
+
+     <!-- Projects Start -->
+      <section id="projects">
+        <div class="container">
+          <div class="title">
+            <h2>
+              <i class="fa-solid fa-code-branch"></i> My <span class="text-primary">Projects</span>
+            </h2>
+            <hr>
+            <p>Work is not just about completing tasks, but about honing skills and fostering growth.</p>
+
           </div>
+          <div class="projects-content">
+            <div class="row">
+              <div class="item">
+                <a href="https://rady-ahmed.github.io/Dashboard/" target="_blank" aria-label="Dashboard Github">
+
+                  <img src="./img/dash.png" alt="Dashboard App">
+                  <h3>Dashboard App</h3>
+                </a>
+                <p>A simple Dashboard by rady</p>
+              </div>
+
+              <div class="item">
+                <a href="https://rady-ahmed.github.io/bakery/." target="_blank" aria-label="bakery App Github">
+                  <img src="./img/back.jpg" alt="bakery App">
+                  <h3>bakery </h3>
+                </a>
+                <p>A Online bread selling site</p>
+            </div>
+            <div class="item">
+              <a href="https://rady-ahmed.github.io/shoes/" target="_blank" aria-label="shoes App Github">
+                <img src="./img/shoes.png" alt="shoes App">
+                <h3>shoes store</h3>
+              </a>
+              <p>A wepsite store shoes <small></small></p>
+            </div>
+            <div class="item">
+              <a href="https://rady-ahmed.github.io/project/" target="_blank" aria-label="plafprm courses  Github">
+                <img src="./img/pro.png" alt="courses platform ">
+                <h3>platform courses</h3>
+              </a>
+              <p>A wepsite platform courses <small></small></p>
+            </div>
+          </div>
+  
         </div>
-      </div>
-    </section>
-    <!-- Experience End -->
+        
+
+
+
+      </section>
+      <!-- Projects End -->
+
     <!-- Education Start -->
     <section id="education">
       <div class="container">
@@ -227,7 +269,28 @@
     </section>
 
   </main>
+
+    <section id="contact">
+      <div class="container">
+        <div class="title">
+          <h2>
+            <i class="fa-solid fa-headset"></i> Get In <span class="text-primary">Touch</span>
+          </h2>
+        </div>
+        <div class="row">
+          <img src="./img/contact.png" alt="Get In Touch">
+          <form action="https://formsubmit.co/4e5a8881a302558b66695d0893c216d9" method="POST">
+            <input type="text" name="Name" id="Name" placeholder="Name" required="">
+            <input type="email" name="Email" id="Email" placeholder="Email" required="">
+            <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Message"></textarea>
+            <button type="submit" class="btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+
+  </section>
   <!-- Footer Start -->
+ 
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
@@ -243,6 +306,8 @@
               <li><a href="#home"><i class="fa-solid fa-circle-chevron-right"></i> Home</a></li>
               <li><a href="#about"><i class="fa-solid fa-circle-chevron-right"></i> About</a></li>
               <li><a href="#portfolio"><i class="fa-solid fa-circle-chevron-right"></i> Portfolio</a></li>
+              
+
               
           </div>
           <div class="col-3">
@@ -279,6 +344,7 @@
   <!-- Footer End -->
   <!-- JavaScript -->
   <script src="./script.js"></script>
+  
 </body>
 
 </html>
